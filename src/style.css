@@ -1,0 +1,29 @@
+body {
+    width: 304px;
+    height: 204px;
+    background-image: url('/src/images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-div {
+    height: 60px;
+    text-align: center;
+    margin-top: 144px;
+}
+.action-button {
+    width: 191px;
+    height: 34px;
+    background-color: transparent;
+    background: url(/src/images/button.png) no-repeat;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+.action-button:hover {
+    transform: translateY(-2px);
+}
+
+.action-button:active {
+    background: url(/src/images/button_pressed.png) no-repeat;
+    transform: translateY(4px);
+}
